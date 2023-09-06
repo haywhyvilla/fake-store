@@ -101,12 +101,12 @@ const ProductDetails = ({ params }) => {
                 {Object.keys(product).length === 0 ? (
                     <div>...Your cart is Empty</div>
                 ) : (
-                    <div className="bg-gray-200 p-4 w-[60%]">
+                    <div className="bg-gray-200 p-4 md:w-[60%] w-full">
                         <div>
                             {/* <div className="border-r-2 border-gray-400 text-center">
                 <span className="text-2xl">AND</span>
             </div> */}
-                            <div className="grid grid-cols-2 gap-1 items-center">
+                            <div className="md:grid grid-cols-2 gap-1 items-center">
                                 <div className="w-1/2">
                                     <img className="w-full" src={image} alt={title} />
                                 </div>
